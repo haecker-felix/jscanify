@@ -196,6 +196,10 @@
 
       img.delete()
       warpedDst.delete()
+
+      srcTri.delete();
+      dstTri.delete();
+      
       return canvas;
     }
 
